@@ -4,40 +4,22 @@ body{
 }
 
 nav{
-    display: flex;
-    flex-direction: row;
-    height: 3rem;
-    background-color: rgb(8, 20, 87);
-    align-items: center;
-    justify-content: space-between;
+    background-color: rgb(3, 6, 29);
+    overflow: hidden;
 }
 
-
-nav label, nav ul li{
-    color: white;
+nav a{
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    list-style: none;
-}
-
-
-nav label{
-    margin-left: 20px;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 17px;
 }
 
 
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-nav ul li {
-    margin-left: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 
 
